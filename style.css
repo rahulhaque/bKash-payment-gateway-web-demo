@@ -1,0 +1,29 @@
+.btn {
+  padding: 0.6rem 2rem;
+  margin: 5px;
+  color: #fff;
+  border-radius: 3px;
+  background-image: linear-gradient( 122deg, #d64635 0%, #ff604d 100%);
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:not([disabled]):not(.disabled).active,
+.btn:not([disabled]):not(.disabled):active,
+.show>.btn.dropdown-toggle {
+  background-image: linear-gradient( 122deg, #ce4333 0%, #f55c4a 100%);
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
+  color: #FFF;
+}
+
+.btn:disabled,
+.btn[disabled]{
+  background-image: linear-gradient( 122deg, #ff867b 0%, #ff867b 100%);
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
+  color: #FFF;
+}
